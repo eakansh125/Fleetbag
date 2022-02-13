@@ -50,12 +50,21 @@ body{
     margin: 0 3rem;
 }
 
+.margin-tb{
+    margin: 1rem 0;
+}
+
 .font-bold{
     font-weight: 900;
 }
 
 .font-primary-color{
     color: var(--primary-maroon);
+}
+
+.width-almost-full
+{
+    width: 90%;
 }
 
 /* Nav */
@@ -111,7 +120,7 @@ body{
 
 /* Input */
 .input-outlined{
-    width: 80%;
+    width: 85%;
     padding: 0.8rem 0.6rem;
     border: 1px solid  var(--secondary-grey);
     border-radius: 5px;
@@ -168,6 +177,22 @@ body{
 .btn-small:hover{
     background-color: var(--dark-maroon);
     border: 1px solid var(--light-maroon);
+    font-weight: bold;
+}
+
+.btn-text{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--primary-maroon);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-text:hover{
+    background-color: var(--hover-grey);
     font-weight: bold;
 }
 
