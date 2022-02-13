@@ -167,18 +167,27 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 95%;
+    width: 100%;
     margin: 1rem 0;
 }
 
 .img-full{
-    width: 100%;
+    width: 95%;
     height: 100%;
     object-fit: cover;
 }
 
 
 /* Card */
+
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
 
 .card{
     height: auto;
@@ -271,4 +280,9 @@ body{
     width: 90%;
     display: flex;
     margin-bottom: 0.3rem;
+}
+
+/* Card sizes */
+.card-medium{
+    width: 300px;
 }
