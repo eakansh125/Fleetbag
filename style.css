@@ -26,6 +26,26 @@ body{
     margin: 0;
 }
 
+/* Generic styles */
+
+.flex-row{
+    display: flex;
+    flex-direction: row;   
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-bw{
+    justify-content: space-between;
+}
+
 .margin-lr{
     margin: 0 3rem;
 }
