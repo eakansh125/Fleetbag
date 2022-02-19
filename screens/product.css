@@ -6,10 +6,6 @@
 }
 
 .filter-container{
-    /* position: fixed;
-    width: 20% !important;
-    z-index: 2;
-    height: 100%; */
     min-width: 252px;
     max-width: 252px;
     height: 100%;
@@ -17,10 +13,7 @@
 }
 
 .product-container{
-    /* background-color: cadetblue; */
     width: 100%;
-    /* margin-left: 310px; */
-    /* border: 1px solid var(--secondary-grey); */
     border-radius: 10px;
 }
 
