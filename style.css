@@ -27,6 +27,13 @@ body{
 }
 
 /* Generic styles */
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
 
 .flex-row{
     display: flex;
@@ -56,6 +63,18 @@ body{
 
 .margin-left{
     margin-left: 1rem;
+}
+
+.margin-tb-xs{
+    margin: 0.5rem;
+}
+
+.padding-no{
+    padding: 0;
+}
+
+.margin-no{
+    margin: 0;
 }
 
 .font-bold{
@@ -290,9 +309,7 @@ body{
     margin: 1rem;
 }
 
-.text-heading>h3{
-    margin: 0;
-}
+
 
 .card-lower{
     width: 100%;
@@ -365,4 +382,9 @@ body{
 /* Card sizes */
 .card-medium{
     width: 18.75rem;
+
+}
+
+.card-small{
+    width: 15.628rem;
 }
