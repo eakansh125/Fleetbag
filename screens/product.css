@@ -6,8 +6,8 @@
 }
 
 .filter-container{
-    min-width: 252px;
-    max-width: 252px;
+    min-width: 15.75rem;
+    max-width: 15.75rem;
     height: 100%;
     flex-grow: 0 !important;
 }
@@ -22,10 +22,9 @@
 }
 
 
-
 .image-vertical-xs>img{
     width: 100%;
-    height: 220px;
+    height: 13.75rem;
     object-fit: cover;
     border-radius: 5px;
 }
