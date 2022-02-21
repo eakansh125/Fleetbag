@@ -396,6 +396,10 @@ body{
     width: 15.625rem;
 }
 
+.card-small{
+    width: 15.628rem;
+}
+
 .card-xs{
     width: 12.5rem;
 }
