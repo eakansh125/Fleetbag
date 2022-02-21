@@ -66,7 +66,7 @@ body{
 }
 
 .margin-tb-xs{
-    margin: 0.5rem;
+    margin: 0.5rem 0;
 }
 
 .padding-no{
@@ -79,6 +79,10 @@ body{
 
 .font-bold{
     font-weight: 900;
+}
+
+.font-xs{
+    font-size: x-small;
 }
 
 .font-primary-color{
@@ -175,8 +179,8 @@ body{
 
 .badge-span{
     position: absolute;
-    top: -15px;
-    right: -15px;
+    top: -10px;
+    right: -10px;
     width: 1.5rem;
     height: 1.5rem;
     font-size: 1rem;
@@ -298,6 +302,10 @@ body{
     box-shadow: 1px 1px 10px 1px gray;
 }
 
+.light-gray-shadow{
+    box-shadow: 1px 1px 10px 1px var(--secondary-grey);
+}
+
 .image-vertical>img{
     width: 100%;
     height: 20rem;
@@ -382,9 +390,16 @@ body{
 /* Card sizes */
 .card-medium{
     width: 18.75rem;
+}
 
+.card-small{
+    width: 15.625rem;
 }
 
 .card-small{
     width: 15.628rem;
+}
+
+.card-xs{
+    width: 12.5rem;
 }
